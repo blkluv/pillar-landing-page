@@ -1,5 +1,3 @@
-// components/About/index.tsx
-
 import React from 'react';
 import { Grid } from '@mui/material';
 import { PersonType } from 'types/person';
@@ -20,7 +18,7 @@ const people: PersonType[] = [
   {
     id: 2,
     name: 'Billionaire CRE Club',
-    avatar: '/people/2.png',
+    avatar: '/people/1.png',
     ctaURL: 'https://cre.arvrtise.com',
     role: 'BROKER $44.99/M',
     summary: 'Subscribe to our premium Discord Broker channel.',
@@ -30,7 +28,7 @@ const people: PersonType[] = [
   {
     id: 3,
     name: 'Billionaire CRE Club',
-    avatar: '/people/3.png',
+    avatar: '/people/1.png',
     ctaURL: 'https://cre.arvrtise.com',
     role: 'INVESTOR $199.99/M',
     summary: 'Subscribe to our premium Discord Investor channel.',
@@ -40,7 +38,7 @@ const people: PersonType[] = [
   {
     id: 4,
     name: 'Arvrtise Real Estate',
-    avatar: '/people/4.png', // Provide unique avatar URLs
+    avatar: '/people/1.png', // Provide unique avatar URLs
     ctaURL: 'https://realestate.arvrtise.com',
     role: 'DIY REAL ESTATE AD',
     summary: 'Subscribe to our premium real estate Arvrtising platform.',
