@@ -8,24 +8,25 @@ import StackedLineChartIcon from '@mui/icons-material/StackedLineChart';
 
 const values: ValueType[] = [
   {
-    title: 'Integrity',
-    icon: <LocalPoliceIcon htmlColor="#e72d65" />,
-    subTitle: 'Do the right thing, every time.',
+    title: 'Verified',
+    icon: <LocalPoliceIcon htmlColor="#1D3150" />,
+    subTitle: 'Subscribe to premium for a verified badge',
   },
   {
-    title: 'Transparency',
-    icon: <BorderClearIcon htmlColor="#e72d65" />,
-    subTitle: 'Be open, speak up.',
+    title: 'TikTok',
+    icon: <BorderClearIcon htmlColor="#1D3150" />,
+    subTitle:
+      'Post your Ad on our CRE Club <a href="https://www.tiktok.com/@creclub" target="_blank">TikTok</a>',
   },
   {
-    title: 'Humility',
-    icon: <EmojiPeopleIcon htmlColor="#e72d65" />,
-    subTitle: 'No egos allowed.',
+    title: 'DIY',
+    icon: <EmojiPeopleIcon htmlColor="#1D3150" />,
+    subTitle: 'No middleman needed',
   },
   {
-    title: 'Meritocracy',
-    icon: <StackedLineChartIcon htmlColor="#e72d65" />,
-    subTitle: 'The best idea always wins.',
+    title: 'Up Vote',
+    icon: <StackedLineChartIcon htmlColor="#1D3150" />,
+    subTitle: 'Tell everyone to upvote your ad',
   },
 ];
 
@@ -33,8 +34,8 @@ const Values = () => {
   return (
     <section className={styles.values}>
       <div className={styles['values-header']}>
-        <h3>Our Values</h3>
-        <p>Our values are short, simple, and real: they guide how we conduct our business, everyday.</p>
+        <h3>Value</h3>
+        <p>Promote your CRE content to your target real estate demographic</p>
       </div>
       <div className={styles['values-content']}>
         <Grid container rowSpacing={2}>

@@ -10,14 +10,15 @@ const Banner: React.FC<Props> = ({ imgSrc }) => {
       className={`${styles.banner} padding-wrapper complete`}
       style={{ backgroundImage: `url(${imgSrc})` }}>
       <div className={styles['banner-content']}>
-        <h1>Direct Marketplace for Institutional Commercial Real Estate</h1>
+        <h1>Own Your Commercial Real Estate Data</h1>
         <p className={`${styles['large']} large`}>
-          Streamlined execution. No double promote. Minimized fee drag. Community-driven. Real estate capital,
-          optimized.
+          We expedited the CRE transition time through the implementation of tokenization technology,
+          complemented by AI and blockchain technology. Subscribe to our Billionaire CRE Club.
         </p>
         <div className={styles['button-container']}>
+          <a href="https://cre.arvrtise.com"></a>
           <button className="ui-button-2 primary" onClick={() => handleMoveToId()}>
-            Get Started
+            Subscribe
           </button>
         </div>
       </div>

@@ -14,14 +14,17 @@ const Banner: React.FC<Props> = ({ imgSrc }) => {
           <div className={styles['banner-content-careers-container']}>
             <img src="/career/logo.svg"></img>
           </div>
-          <h6>CAREERS</h6>
+          <h6>DIY</h6>
         </div>
-        <h1>Come work with us!</h1>
-        <p>Want to change the future of private real estate capital? We're hiring!</p>
+        <h1>CRE Ad Campaign</h1>
+        <p>
+          Post a link to your CRE PR article, property, or portfolio to share your latest developments and
+          insights with your target audience{' '}
+        </p>
         <div className={styles['button-container']}>
           <button className="ui-button-2" onClick={() => handleMoveToId()}>
-            <a href="https://angel.co/company/pillarmarkets" target="_blank" rel="noopener noreferrer">
-              OPEN POSITIONS
+            <a href="https://realestate.arvrtise.com" target="_blank" rel="noopener noreferrer">
+              GET STARTED
             </a>
           </button>
         </div>

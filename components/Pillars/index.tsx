@@ -14,31 +14,31 @@ interface iPillarCards {
 const pillarCardsContent: iPillarCards[] = [
   {
     image: '/landingpage/institution-quality.png',
-    title: 'Institutional Quality',
-    subtitle: 'Investment & Operational Due Diligence, Deal Flow',
+    title: 'Billionaire CRE Club',
+    subtitle: 'Join the elite group of brokers, investors and service professionals.',
     description:
-      "Detailed vetting of sponsors' people, processes, systems, and track records coupled with comprehensive asset-level data to facilitate efficient investment due diligence.",
+      'Discover offline deals worldwide. Verify $1 million in CRE sales as a broker or $1 million in AUM as an investor to earn a blockchain badge, granting access to private channels, events, and auctions.',
   },
   {
     image: '/landingpage/data-first.png',
-    title: 'Data-First',
-    subtitle: 'Standardized Reporting & Customizable Analytics',
+    title: 'Tokenizing Assets',
+    subtitle: 'Blockchain AUM',
     description:
-      'Incorporating alternative data sources and up-to-date information from property management and accounting software to support a systematic investment process.',
+      'Own your CRE data. We assist investors in tokenizing their portfolios, learning blockchain technology, making digital asset investments, and providing reporting and customizable analytics.',
   },
   {
     image: '/landingpage/network-driven.png',
-    title: 'Network-Driven',
-    subtitle: 'Discovery, Diligence, & Monitoring',
+    title: 'DIY CRE Marketing',
+    subtitle: 'Subscribe & Upvote Your Property',
     description:
-      'Building confidence and facilitating transactions via a community of sophisticated investors: discuss new and ongoing deals, follow respected sponsors and investors.',
+      'We created a new way of marketing real estate and finding the hostest properties with an affordable flat rate DIY upvoting Arvrtising campaign. The hottest properties will be featured on @creclub socials.',
   },
   {
     image: '/landingpage/capital-structure.png',
-    title: 'Capital Structure Solutions',
-    subtitle: 'From Acquisition to Recapitalization',
+    title: 'CRE Club Linkedin',
+    subtitle: 'Join us on Linkedin',
     description:
-      'A marketplace to accommodate investor capital of varying time horizons, solving the liquidity needs of both investors and sponsors.',
+      'CRE Club subscribers can join our private LinkedIn group, where only members can post to prevent spammy CRE content on LinkedIn.',
     path: '/sponsor',
   },
 ];

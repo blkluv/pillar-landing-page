@@ -6,22 +6,21 @@ import PriceCheckIcon from '@mui/icons-material/PriceCheck';
 import CachedOutlinedIcon from '@mui/icons-material/CachedOutlined';
 const solutions: SolutionType[] = [
   {
-    title: 'Facilitate Efficient Access to Capital',
-    icon: <CachedOutlinedIcon htmlColor="#e72d65" />,
+    title: 'Streamline Capital Access',
+    icon: <CachedOutlinedIcon htmlColor="#1D3150" />,
     content:
-      'Depth and breadth of capital pool allows for timely execution along risk profiles and across the capital stack.',
+      'The CRE Club provides subscribers with direct access to brokers, investors, and service providers with private deal rooms',
   },
   {
-    title: 'Owner Always Maintains Control',
-    icon: <KeyOutlinedIcon htmlColor="#e72d65" />,
+    title: 'Advanced CRE Tech',
+    icon: <KeyOutlinedIcon htmlColor="#1D3150" />,
     content:
-      'Including all major capital decisions. No forced sales, no meddling LPs. Investors benefit from streamlined reporting and analytical tools.',
+      'BCC is the most technology advanced commercial real estate platform in the industry with access to AI tools and blockchain services.',
   },
   {
-    title: 'All With Lower Fees',
-    icon: <PriceCheckIcon htmlColor="#e72d65" />,
-    content:
-      'Solve your needs while managing fees. Relative to competitors, we’re up to 75% cheaper - we focus on providing innovative solutions to real problems,  without reinventing the wheel.',
+    title: 'No Middleman Fees',
+    icon: <PriceCheckIcon htmlColor="#1D3150" />,
+    content: 'Experience streamlined, cost-effective CRE networking and transactions. This is the way.',
   },
 ];
 
@@ -29,7 +28,7 @@ const PillarSolution = () => {
   return (
     <section id="solutions" className={styles['pillar-solution']}>
       <div className={styles['pillar-solution-header']}>
-        <h3>The Pillar Solution</h3>
+        <h3>The BCC Solution</h3>
       </div>
       <div className={styles['pillar-solution-content']}>
         <Grid container rowSpacing={2} columnSpacing={2}>

@@ -33,16 +33,16 @@ const Navbar: React.FC<NavbarProps> = ({
 
   const menus: Menu[] = [
     {
-      text: 'Sponsors',
+      text: 'CRE Club',
       onClick: () => router.push('/sponsor'),
       path: '/sponsor',
     },
     {
-      text: 'About us',
+      text: 'Subscribe',
       path: '/?about-us=true',
     },
     {
-      text: 'Careers',
+      text: 'DIY Ads',
       onClick: () => router.push('/career'),
       path: '/career',
     },

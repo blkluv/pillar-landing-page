@@ -7,18 +7,16 @@ const HowItWorks: React.FC = () => {
   return (
     <section className={styles['how-it-works']}>
       <h3>How it Works</h3>
-      <h6>Our process for owners of institutional-quality assets</h6>
-      <p>
-        Pillar underwrites the GP <span>to institutional standards</span>
-      </p>
+      <h6>Our process for BCC members</h6>
+      <p>Levels</p>
 
       <div className={styles['how-it-works-cards']}>
         <div className={styles['how-it-works-cards-small']}>
           <WarningAmberOutlinedIcon htmlColor="#FFD130" />
-          <h4>GP does not pass due diligence</h4>
+          <h4>General</h4>
           <p>
-            <span>Pillar works with GP</span> to shore up shortfalls by introducing third-party service
-            providers and/or instituting asset management oversight
+            <span>BCC</span> members are ranked using a leaderboard based on their activity to gamify our
+            annual awards.
           </p>
         </div>
         <div className={styles['how-it-works-cards-icon']}>
@@ -26,23 +24,20 @@ const HowItWorks: React.FC = () => {
         </div>
         <div className={styles['how-it-works-cards-large']}>
           <CheckCircleOutlineIcon htmlColor="#00838F" />
-          <h4>GP passes due diligence</h4>
+          <h4>Verified</h4>
           <div className={styles['how-it-works-cards-large-row']}>
-            <p>Sponsor and Asset are onboarded onto platform</p>
+            <p>Subscribe and onboard onto the platform</p>
 
             <div className={styles['how-it-works-cards-large-row-icon']}>
               <ArrowForwardIosIcon />
             </div>
 
-            <p>
-              Pillar may close the asset on balance sheet and syndicate the risk or offer for best efforts
-              execution
-            </p>
+            <p>Investors can verify $1M+ AUM for a members badge to exclusive events</p>
 
             <div className={styles['how-it-works-cards-large-row-icon']}>
               <ArrowForwardIosIcon />
             </div>
-            <p>Post-close ongoing asset reporting via automated ingestion of financial data</p>
+            <p>Brokers can verify $1M+ in CRE assets sold for a members badge to exclusive events</p>
           </div>
         </div>
       </div>

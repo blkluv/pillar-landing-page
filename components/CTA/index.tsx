@@ -99,12 +99,14 @@ const CTA = () => {
       <div className={styles['cta-content']}>
         <div className={styles['cta-content-part']}>
           <h4>Connect With Us</h4>
-          <p>Speak to a team member to learn more about the Pillar commercial real estate marketplace.</p>
+          <p>
+            Speak to a team member to learn more about the blockchain commercial real estate club marketplace.
+          </p>
 
           <div style={{ display: 'flex', alignItems: 'center', marginTop: '30px' }}>
             <EmailIcon />
             <span style={{ marginLeft: '20px' }}>
-              <a href="mailto:info@pillarmarkets.com">info@pillarmarkets.com</a>
+              <a href="mailto:info@pillarmarkets.com">info@arvrtise.com</a>
             </span>
           </div>
         </div>
@@ -117,7 +119,7 @@ const CTA = () => {
             <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
             <!--  these lines if you wish to test in debug mode.                          -->
             <input type="hidden" name="debug" value={1} />
-            <input type="hidden" name="debugEmail" value="steve@pillarmarkets.com" />
+            <input type="hidden" name="debugEmail" value="info@arvrtise.com" />
             <!--  ----------------------------------------------------------------------  --> */}
               {/* the code above is for testing */}
               <Grid container spacing={2} columnSpacing={4}>

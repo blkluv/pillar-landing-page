@@ -8,11 +8,11 @@ interface Props {
 }
 
 const benefits = [
-  'Competitive compensation including equity',
-  'Comprehensive medical, dental, and vision insurance',
-  'Unlimited Paid Time Off',
-  'Remote-first working environment (including a WFH equipment stipend)',
-  'Decision-making autonomy and ability to make a major impact',
+  'Real Estate SEO',
+  'Backlinks',
+  'Advanced reporting',
+  'Social media visibility to 100k monthly real estate viewers',
+  'The front page of the Reddit of real estate',
 ];
 
 const Benefits: React.FC<Props> = ({ imgSrc }) => {
@@ -32,7 +32,7 @@ const Benefits: React.FC<Props> = ({ imgSrc }) => {
         </Grid>
         <Grid item xs={12} sm={6}>
           <div className={styles['benefits-content']}>
-            <h1>Benefits and Perks</h1>
+            <h1>Marketing Perks</h1>
             {listOfBenefits.map((benefit, idx) => (
               <div key={idx} className={styles['benefits-content-item']}>
                 <AddIcon />
@@ -41,8 +41,8 @@ const Benefits: React.FC<Props> = ({ imgSrc }) => {
             ))}
             <div className={styles['button-container']}>
               <button className="ui-button-2" onClick={() => handleMoveToId()}>
-                <a href="https://angel.co/company/pillarmarkets" target="_blank" rel="noopener noreferrer">
-                  OPEN POSITIONS
+                <a href="https://realestate.arvrtise.com" target="_blank" rel="noopener noreferrer">
+                  GET STARTED
                 </a>
               </button>
             </div>

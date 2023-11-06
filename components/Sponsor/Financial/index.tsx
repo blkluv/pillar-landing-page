@@ -7,22 +7,23 @@ import AccessibilityNewOutlinedIcon from '@mui/icons-material/AccessibilityNewOu
 
 const financial: FinancialType[] = [
   {
-    title: 'Portfolio Management',
-    icon: <PieChartOutlineOutlinedIcon htmlColor="#e72d65" />,
-
-    content: 'Monetize a portion of gains to manage portfolio risk and/or recycle capital',
-  },
-  {
-    title: 'Tax & Estate Planning',
-    icon: <ReceiptLongOutlinedIcon htmlColor="#e72d65" />,
+    title: 'Brokers',
+    icon: <PieChartOutlineOutlinedIcon htmlColor="#1D3150" />,
 
     content:
-      'Including all major capital decisions. No forced sales, no meddling LPs. Investors benefit from streamlined reporting and analytical tools.',
+      'Brokers have the ability to network with other brokers, connect with investors, and engage with service providers.',
   },
   {
-    title: 'Investor Relations',
-    icon: <AccessibilityNewOutlinedIcon htmlColor="#e72d65" />,
-    content: 'Maintain strong LP relationships by offering  liquidity independent of a sale',
+    title: 'Investors',
+    icon: <ReceiptLongOutlinedIcon htmlColor="#1D3150" />,
+
+    content:
+      'Investors have the ability to network with other investors, connect directly with brokers, and engage with service providers.',
+  },
+  {
+    title: 'Service Providers',
+    icon: <AccessibilityNewOutlinedIcon htmlColor="#1D3150" />,
+    content: 'Service providers have their own channel to promote their services to brokers and investors.',
   },
 ];
 
@@ -33,7 +34,7 @@ const Financial = () => {
     <section className={styles.financial}>
       <div className={styles['financial-header']}>
         {/* <h6>SPONSORS</h6> */}
-        <h3>As an Owner you have financial needs that should drive your capital decisions</h3>
+        <h3>No Middleman Fees</h3>
       </div>
       <div className={styles['financial-content']}>
         <Grid container rowSpacing={3} columnSpacing={2}>

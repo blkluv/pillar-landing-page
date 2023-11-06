@@ -3,17 +3,17 @@ import classNames from 'classnames';
 import styles from './Until.module.scss';
 
 const untilNow = [
-  'LP control rights over major decisions including sale/refinancing',
-  'Capital gains taxes, deal level transfer taxes/other transaction costs',
-  'Need to actively seek reinvestment options for sale proceeds',
-  'Diverse LP base asking repetitive, distracting questions',
+  'Many CRE networking platforms traditionally offer limited accessibility to investors',
+  'High subscription costs hinder access for smaller businesses and independent brokers',
+  'Limited platform access with strict data sharing regulations',
+  'Inaccurate or outdated property listings leading to a negative platform ROI',
 ];
 
 const withPillar = [
-  'You maintain control, just like a fund GP',
-  'Avoid inopportune sales while still providing liquidity to LPs',
-  'You maintain ownership, preserving asset management fees and deferring taxes/costs of a whole asset sale',
-  "Comprehensive reporting and LP forum enables investors to answer each others' questions",
+  'You tokenize and own all of your CRE data securely in your blockcahin wallet',
+  'Access to private member only events around the world, held once a month',
+  'Reduce asset management fees and long-term broker costs while enhancing transparency',
+  'Access the latest AI and blockchain technology along with advisory services for digital assets',
 ];
 
 const Until: React.FC = () => {
@@ -47,7 +47,7 @@ const Until: React.FC = () => {
               </div>
               <p>Now</p>
             </div> */}
-            <h1 className={styles['right']}>With Pillar</h1>
+            <h1 className={styles['right']}>With BCC</h1>
             {withPillar.map((el, idx) => (
               <div key={idx} className={styles['until-now-item']}>
                 <img src={`/sponsor/check.svg`} alt="check" />
