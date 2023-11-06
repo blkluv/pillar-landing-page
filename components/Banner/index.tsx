@@ -1,5 +1,6 @@
-import { handleMoveToId } from 'utils';
 import styles from './Banner.module.scss';
+import React from 'react';
+
 interface Props {
   imgSrc: string;
 }
@@ -16,10 +17,9 @@ const Banner: React.FC<Props> = ({ imgSrc }) => {
           complemented by AI and blockchain technology. Subscribe to our Billionaire CRE Club.
         </p>
         <div className={styles['button-container']}>
-          <a href="https://cre.arvrtise.com"></a>
-          <button className="ui-button-2 primary" onClick={() => handleMoveToId()}>
-            Subscribe
-          </button>
+          <a href="https://cre.arvrtise.com" target="_blank" rel="noopener noreferrer">
+            <button className="ui-button-2 primary">Subscribe</button>
+          </a>
         </div>
       </div>
     </section>
