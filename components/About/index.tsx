@@ -1,15 +1,17 @@
+// components/About/index.tsx
+
 import React from 'react';
 import { Grid } from '@mui/material';
 import { PersonType } from 'types/person';
 import Person from './components/Person';
 import styles from './About.module.scss';
-
+// types/person.d.ts (or relevant type definition file)
 const people: PersonType[] = [
   {
     id: 1,
     name: 'Billionaire CRE Club',
     avatar: '/people/1.png', // Provide unique avatar URLs for each person
-    ctaURL: 'https://cre.arvrtise.com', // Replace with the actual URL
+    ctaURL: 'https://cre.arvrtise.com',
     role: 'SERVICES $44.99/M',
     summary: 'Subscribe to our premium Discord Service channel.',
     description: 'This is the way',
@@ -18,8 +20,8 @@ const people: PersonType[] = [
   {
     id: 2,
     name: 'Billionaire CRE Club',
-    avatar: '/people/2.png', // Provide unique avatar URLs
-    ctaURL: 'https://cre.arvrtise.com', // Replace with the actual URL
+    avatar: '/people/2.png',
+    ctaURL: 'https://cre.arvrtise.com',
     role: 'BROKER $44.99/M',
     summary: 'Subscribe to our premium Discord Broker channel.',
     description: 'This is the way',
@@ -28,8 +30,8 @@ const people: PersonType[] = [
   {
     id: 3,
     name: 'Billionaire CRE Club',
-    avatar: '/people/3.png', // Provide unique avatar URLs
-    ctaURL: 'https://cre.arvrtise.com', // Replace with the actual URL
+    avatar: '/people/3.png',
+    ctaURL: 'https://cre.arvrtise.com',
     role: 'INVESTOR $199.99/M',
     summary: 'Subscribe to our premium Discord Investor channel.',
     description: 'This is the way',
@@ -39,7 +41,7 @@ const people: PersonType[] = [
     id: 4,
     name: 'Arvrtise Real Estate',
     avatar: '/people/4.png', // Provide unique avatar URLs
-    ctaURL: 'https://realestate.arvrtise.com', // Replace with the actual URL
+    ctaURL: 'https://realestate.arvrtise.com',
     role: 'DIY REAL ESTATE AD',
     summary: 'Subscribe to our premium real estate Arvrtising platform.',
     description: 'This is the way',
