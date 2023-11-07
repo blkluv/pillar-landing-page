@@ -7,40 +7,40 @@ import styles from './About.module.scss';
 const people: PersonType[] = [
   {
     id: 1,
-    name: 'Billionaire CRE Club',
+    name: 'CRE Service',
     avatar: '/people/1.png', // Provide unique avatar URLs for each person
     ctaURL: 'https://cre.arvrtise.com',
     role: 'SERVICES $44.99/M',
-    summary: 'Subscribe to our premium Discord Service channel.',
+    summary: 'Subscribe to our premium Billionaire CRE Club Discord Service channel.',
     description: 'This is the way',
   },
 
   {
     id: 2,
-    name: 'Billionaire CRE Club',
+    name: 'CRE Broker',
     avatar: '/people/1.png',
     ctaURL: 'https://cre.arvrtise.com',
     role: 'BROKER $44.99/M',
-    summary: 'Subscribe to our premium Discord Broker channel.',
+    summary: 'Subscribe to our premium Billionaire CRE Club Discord Broker channel.',
     description: 'This is the way',
   },
 
   {
     id: 3,
-    name: 'Billionaire CRE Club',
+    name: 'CRE Investor',
     avatar: '/people/1.png',
     ctaURL: 'https://cre.arvrtise.com',
     role: 'INVESTOR $199.99/M',
-    summary: 'Subscribe to our premium Discord Investor channel.',
+    summary: 'Subscribe to our premium Billionaire CRE Club Discord Investor channel.',
     description: 'This is the way',
   },
 
   {
     id: 4,
-    name: 'Arvrtise Real Estate',
+    name: 'DIY AD',
     avatar: '/people/1.png', // Provide unique avatar URLs
     ctaURL: 'https://realestate.arvrtise.com',
-    role: 'DIY REAL ESTATE AD',
+    role: 'FREE',
     summary: 'Subscribe to our premium real estate Arvrtising platform.',
     description: 'This is the way',
   },
