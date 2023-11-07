@@ -18,7 +18,9 @@ const Person: React.FC<Props> = ({ person, styles, show, toggleShow }) => {
           <p>{person.role}</p>
         </div>
         <p className={styles['description']}>{show ? person.description : person.summary}</p>
-        <a href={person.ctaURL} target="_blank" rel="noopener noreferrer"></a>
+        <a href={person.ctaURL} target="_blank" rel="noopener noreferrer">
+          Subscribe
+        </a>
         <p onClick={toggleShow} className={styles['show']}>
           {show ? 'Hide' : 'Expand'}
         </p>
