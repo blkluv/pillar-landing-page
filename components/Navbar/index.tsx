@@ -75,7 +75,7 @@ const Navbar: React.FC<NavbarProps> = ({
             <a>
               <img
                 src={`/logo-${activeLogoColor}.png`}
-                alt="Pillar Markets"
+                alt="CRE Club"
                 width={120}
                 height={60}
                 className={styles.logo}

@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <section className={styles['footer-section']}>
       <div className={styles['footer-section-content']}>
-        <img src="/logo-white.png" alt="Pillar Markets Logo footer" width={120} height={60} />
+        <img src="/logo-white.png" alt="CRE Club Logo footer" width={120} height={60} />
         <p>Blockchain Infrastructure Powering Private Real Estate</p>
         <a href="mailto:info@arvrtise.com">info@arvrtise.com</a>
         <div className={styles['button-container']}>
@@ -38,8 +38,8 @@ const Footer = () => {
       </div>
       <footer>
         <p>Copyright &copy; {new Date().getFullYear()} Arvrtise</p>
-        <Link href="/sponsor">Sponsors</Link>
-        <Link href="/career">Careers</Link>
+        <Link href="/sponsor">CRE Club</Link>
+        <Link href="/career">DIY Ads</Link>
         <Link href="/terms-of-service">Terms of Service</Link>
         <Link href="/privacy-and-cookies">Privacy and Cookies</Link>
         <Link href="/confidentiality-agreement">Confidentiality Agreement</Link>

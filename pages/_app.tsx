@@ -15,10 +15,10 @@ function MyApp({ Component, pageProps, emotionCache = clientSideEmotionCache }: 
   return (
     <CacheProvider value={emotionCache}>
       <Head>
-        <title>Institutional Marketplace for Commercial Real Estate - Pillar Markets</title>
+        <title>Blockchain Marketplace for Commercial Real Estate - CRE Club</title>
         <meta
           name="description"
-          content="Pillar is a commercial real estate investment platform designed to facilitate discovery, diligence, execution, and ongoing management of direct deals for institutional CRE investors (e.g. pensions/endowments/family offices/RIAs) and help sponsors efficiently manage capital throughout the lifecycle of an investment."
+          content="CRE Club is a commercial real estate investment platform designed to facilitate discovery, diligence, execution, and ongoing management of direct deals for institutional CRE investors (e.g. pensions/endowments/family offices/RIAs) and help sponsors efficiently manage capital throughout the lifecycle of an investment."
         />
       </Head>
       <Component {...pageProps} />

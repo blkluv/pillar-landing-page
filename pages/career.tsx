@@ -16,7 +16,7 @@ const Career: NextPage = () => {
         logoColor: 'black',
       }}>
       <Head>
-        <title>Careers - Pillar Markets</title>
+        <title>Careers - CRE Club</title>
         <meta
           name="description"
           content="Explore career opportunities, learn about company values, and see employee benefits and perks."

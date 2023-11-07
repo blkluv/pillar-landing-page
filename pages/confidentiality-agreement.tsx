@@ -10,7 +10,7 @@ const ConfidentialityAgreement = () => {
         dark: true,
       }}>
       <Head>
-        <title>Confidentiality Agreement - Pillar Markets</title>
+        <title>Confidentiality Agreement - CRE Club</title>
       </Head>
       <div
         className="padding-wrapper policies"

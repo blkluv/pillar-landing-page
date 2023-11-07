@@ -15,7 +15,7 @@ const Sponsor: NextPage = () => {
   return (
     <MainLayout>
       <Head>
-        <title>Capital Solutions for Real Estate Sponsors - Pillar Markets</title>
+        <title>Capital Solutions for Real Estate Sponsors - CRE Club</title>
         <meta
           name="description"
           content="Learn about recapitalization and other capital solutions serving the liquidity needs of real estate sponsors and their investors."

@@ -10,7 +10,7 @@ const TermsOfService = () => {
         dark: true,
       }}>
       <Head>
-        <title>Terms and Conditions - Pillar Markets</title>
+        <title>Terms and Conditions - CRE Club</title>
       </Head>
       <div className="padding-wrapper policies" dangerouslySetInnerHTML={{ __html: termsMarkup }}></div>
     </MainLayout>

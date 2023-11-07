@@ -10,7 +10,7 @@ const PrivacyPolicy = () => {
         dark: true,
       }}>
       <Head>
-        <title>Privacy Policy - Pillar Markets</title>
+        <title>Privacy Policy - CRE Club</title>
       </Head>
       <div className="padding-wrapper policies" dangerouslySetInnerHTML={{ __html: privacyMarkup }}></div>
     </MainLayout>
